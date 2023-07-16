@@ -1,0 +1,16 @@
+// require('./event-emitter')
+// require('./buffer')
+// require('./instanceof')
+// require('./letvar')
+// require('./arguments')
+// require('./bind')
+// require('./number')
+// require('./spread')
+// const bbb = require('./moduleexports');
+// require('./string')
+require('./singleton-loader')
+// require('./child-proc/normal')
+// require('./child-proc/ipc')
+// require('./timer')
+
+// require('./error')
