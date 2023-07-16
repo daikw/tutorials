@@ -1,0 +1,252 @@
+Script started on Thu Nov  4 08:16:02 2021
+Welcome to fish, the friendly interactive shell
+[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m08:16:05[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster=[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Cl[6C[38;2;220;50;47ml[6C[30m(B[m[38;2;88;110;117ms[6C[30m(B[m[38;2;220;50;47ms[7C[30m(B[m[38;2;147;161;161mls[7C[30m(B[m[38;2;147;161;161ms[8C[30m(B[m[38;2;220;50;47mlss[8C[30m(B[m[K[7C[38;2;147;161;161mls[7C[30m(B[m
+[36m[4mls[30m(B[m         [38;2;179;160;109m(Executable, 153kB)[30m(B[m  [36m[4mls[38;2;179;160;109m[24mm[30m(B[m    [38;2;179;160;109m(Executable, 171kB)
+[36m[4mls[38;2;179;160;109m[24mappinfo[30m(B[m  [38;2;179;160;109m(Executable, 1.2MB)[30m(B[m  [36m[4mls[38;2;179;160;109m[24mmp[30m(B[m   [38;2;179;160;109m(Executable, 169kB)
+[36m[4mls[38;2;179;160;109m[24mbom[30m(B[m      [38;2;179;160;109m(Executable, 136kB)[30m(B[m  [36m[4mls[38;2;179;160;109m[24mof[30m(B[m   [38;2;179;160;109m(Executable, 319kB)
+[36m[4mls[38;2;179;160;109m[24mkq[30m(B[m       [38;2;179;160;109m(Executable, 135kB)[30m(B[m  [36m[4mls[38;2;179;160;109m[24mvfs[30m(B[m  [38;2;179;160;109m(Executable, 118kB)[A[A[A[A[7C[30m(B[m[38;2;147;161;161m [30m(B[m[J[8C [8C[38;2;88;110;117m-alh[8C[30m(B[m
+[38;2;179;160;109m2021-11-02.script[30m(B[m  [38;2;179;160;109m2021-11-04.script[30m(B[m  [38;2;179;160;109mlearn-you-some-erlang/[A[8C[30m(B[m2021-11-02.script 
+[1m[38;2;179;160;109m[40m2021-11-02.script(B[m[30m[30m(B[m  [38;2;179;160;109m2021-11-04.script[30m(B[m  [38;2;179;160;109mlearn-you-some-erlang/[A[26C[30m(B[m[18D[38;2;131;148;150m[4m2021-11-02.script[30m(B[m [26C[9D[38;2;131;148;150m[4m4.script[30m(B[m 
+[38;2;179;160;109m2021-11-02.script[30m(B[m  [1m[38;2;179;160;109m[40m2021-11-04.script(B[m[30m[30m(B[m  [38;2;179;160;109mlearn-you-some-erlang/[A[26C[30m(B[m[18D[38;2;131;148;150m[4mlearn-you-some-er[30m(B[mlang/
+[19C[38;2;179;160;109m2021-11-04.script[30m(B[m  [1m[38;2;179;160;109m[40mlearn-you-some-erlang/[A[30C(B[m[30m[30m(B[m[38;2;131;148;150m[4mlang/[30C[30m(B[m[38;2;88;110;117mband_supervisor.erl [30C[30m(B[m[20C[J[30C[K[30C
+[30m(B[m[?2004l]0;ls learn-you-some-erlang/ /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[mLICENSE.txt               [34merlcount-1.0[39;49m[0m              ops.erl
+README.txt                exceptions.erl            ops_tests.erl
+band_supervisor.erl       fifo.erl                  [34mpool[39;49m[0m
+calc.erl                  fifo_types.erl            [34mppool-1.0[39;49m[0m
+cards.erl                 functions.erl             [34mprocessquest[39;49m[0m
+cases.erl                 guards.erl                records.erl
+cat_fsm.erl               hhfuns.erl                records.hrl
+convert.erl               keyval_benchmark.erl      recursive.erl
+[34mct[39;49m[0m                        kitchen.erl               [34mrelease[39;49m[0m
+curling.erl               kitty_gen_server.erl      [34mreminder[39;49m[0m
+curling_accumulator.erl   kitty_server.erl          road.erl
+curling_feed.erl          kitty_server2.erl         road.txt
+curling_scoreboard.erl    linkmon.erl               tester.erl
+curling_scoreboard_hw.erl [34mm8ball[39;49m[0m                    [34mtests[39;49m[0m
+discrep1.erl              [34mmafiapp-1.0.0[39;49m[0m             [34mtrade[39;49m[0m
+discrep2.erl              [34mmafiapp-1.0.1[39;49m[0m             tree.erl
+discrep3.erl              multiproc.erl             useless.erl
+discrep4.erl              musicians.erl             what_the_if.erl
+dog_fsm.erl               my_server.erl             zoo.erl
+dolphins.erl              oop.erl
+[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m08:16:24[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster=[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Cl[6C[38;2;88;110;117ms learn-you-some-erlang/[6C[30m(B[m[38;2;220;50;47ml[38;2;88;110;117ms learn-you-some-erlang/[6C[30m(B[m[38;2;220;50;47me[30m(B[m[K[7C[38;2;88;110;117mss 2021-11-02.script[7C[30m(B[m[38;2;220;50;47ms[38;2;88;110;117ms 2021-11-02.script[8C[30m(B[m[38;2;220;50;47ms[38;2;88;110;117m 2021-11-02.script[9C[30m(B[m[38;2;147;161;161mless[38;2;88;110;117m 2021-11-02.script[9C[30m(B[m[38;2;147;161;161m [38;2;88;110;117m2021-11-02.script[10C[30m(B[m [38;2;88;110;117m2021-11-02.script[10C[30m(B[ml[K[11C[38;2;131;148;150m[4ml[11C[30m(B[m[38;2;88;110;117mearn-you-some-erlang/[11C[30m(B[m[38;2;131;148;150m[4me[38;2;88;110;117m[24marn-you-some-erlang/[12C[30m(B[m[38;2;131;148;150m[4marn-you-some-erlang/[32C[30m(B[m[38;2;131;148;150m[4mREADME.txt[42C[30m(B[m[38;2;88;110;117m [42C[30m(B[m[K[42C
+[30m(B[m[?2004l]0;less learn-you-some-erlang/README.txt /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[?1049h[?1h=Man there's not a lot to write in a readme for such a book.
+
+You can get the license info in LICENSE.TXT (hint: it's the MIT license).
+I probably won't copy it in every module. Just pretend it's there, please.
+
+The code in these files has been tested with Erlang releases R13B+. In case you' re not sure it will run on another version, you can run the tests yourself by co mpiling tester.erl and then calling:
+
+1> tester:dir().
+or
+2> tester:dir("/modules/path","/unit/tests/modules/path/").
+
+Which should run all the tests. If you're using the release R13B, there is a pat ch you need to apply in order to have unit tests running (see http://erlang.org/ download.html).
+
+Note that even if the tests run fine, you'd benefit in using releases R13B+.
+
+If you need any more help, don't hesitate contacting me: mononcqc@ferd.ca.
+
+[7mlearn-you-some-erlang/README.txt (END)[27m[K[K[?1l>[?1049l[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m08:18:15[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster=[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Cl[6C[38;2;88;110;117mess learn-you-some-erlang/README.txt[6C[30m(B[m[38;2;220;50;47ml[38;2;88;110;117mess learn-you-some-erlang/README.txt[6C[30m(B[m[38;2;220;50;47me[38;2;88;110;117mss learn-you-some-erlang/README.txt[7C[30m(B[m[38;2;220;50;47ms[38;2;88;110;117ms learn-you-some-erlang/README.txt[8C[30m(B[m[38;2;220;50;47ms[38;2;88;110;117m learn-you-some-erlang/README.txt[9C[30m(B[m[38;2;147;161;161mless[38;2;88;110;117m learn-you-some-erlang/README.txt[9C[30m(B[m[38;2;147;161;161m [38;2;88;110;117mlearn-you-some-erlang/README.txt[10C[30m(B[m [38;2;88;110;117mlearn-you-some-erlang/README.txt[10C[30m(B[ml[38;2;88;110;117mearn-you-some-erlang/README.txt[11C[30m(B[m[38;2;131;148;150m[4ml[38;2;88;110;117m[24mearn-you-some-erlang/README.txt[11C[30m(B[m[38;2;131;148;150m[4me[38;2;88;110;117m[24marn-you-some-erlang/README.txt[12C[30m(B[m[38;2;131;148;150m[4marn-you-some-erlang/[38;2;88;110;117m[24mREADME.txt[32C[30m(B[m[38;2;131;148;150m[4mc[30m(B[m[K[33C[38;2;88;110;117malc.erl [33C[30m(B[m[38;2;131;148;150m[4ma[38;2;88;110;117m[24mlc.erl [34C[30m(B[m[38;2;131;148;150m[4ml[38;2;88;110;117m[24mc.erl [35C[30m(B[m[38;2;131;148;150m[4mc.erl [41C[30m(B[m [41C[41C
+[30m(B[m[?2004l]0;less learn-you-some-erlang/calc.erl  /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[?1049h[?1h=-module(calc).
+-export([rpn/1, rpn_test/0]).
+
+%% rpn(List()) -> Int() | Float()
+%% parses an RPN string and outputs the results.
+rpn(L) when is_list(L) ->
+    [Res] = lists:foldl(fun rpn/2, [], string:tokens(L, " ")),
+    Res.
+
+%% rpn(Str(), List()) -> List()
+%% Returns the new stack after an operation has been done.
+%% If no operator is found, we assume a number.
+rpn("+", [N1,N2|S]) -> [N2+N1|S];
+rpn("-", [N1,N2|S]) -> [N2-N1|S];
+rpn("*", [N1,N2|S]) -> [N2*N1|S];
+rpn("/", [N1,N2|S]) -> [N2/N1|S];
+rpn("^", [N1,N2|S]) -> [math:pow(N2,N1)|S];
+rpn("ln", [N|S])    -> [math:log(N)|S];
+rpn("log10", [N|S]) -> [math:log10(N)|S];
+rpn("sum", Stack)   -> [lists:sum(Stack)];
+rpn("prod", Stack)  -> [lists:foldl(fun erlang:'*'/2, 1, Stack)];
+rpn(X, Stack) -> [read(X)|Stack].
+
+%% read(String()) -> Int() | Float()
+read(N) ->
+    case string:to_float(N) of
+        {error,no_float} -> list_to_integer(N);
+        {F,_} -> F
+    end.
+
+%% returns 'ok' iff successful
+rpn_test() ->
+    5 = rpn("2 3 +"),
+    87 = rpn("90 3 -"),
+    -4 = rpn("10 4 3 + 2 * -"),
+    -2.0 = rpn("10 4 3 + 2 * - 2 /"),
+    ok = try
+        rpn("90 34 12 33 55 66 + * - +")
+    catch
+        error:{badmatch,[_|_]} -> ok
+[7mlearn-you-some-erlang/calc.erl[27m[K[K    end,
+    4037 = rpn("90 34 12 33 55 66 + * - + -"),
+    8.0 =  rpn("2 3 ^"),
+    true = math:sqrt(2) == rpn("2 0.5 ^"),
+    true = math:log(2.7) == rpn("2.7 ln"),
+    true = math:log10(2.7) == rpn("2.7 log10"),
+    50 = rpn("10 10 10 20 sum"),
+    10.0 = rpn("10 10 10 20 sum 5 /"),
+    1000.0 = rpn("10 10 20 0.5 prod"),
+    ok.
+
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[HM%% Returns the new stack after an operation has been done.
+[HM%% rpn(Str(), List()) -> List()
+[HM
+[HM    Res.
+[HM    [Res] = lists:foldl(fun rpn/2, [], string:tokens(L, " ")),
+[HMrpn(L) when is_list(L) ->
+[HM%% parses an RPN string and outputs the results.
+[HM%% rpn(List()) -> Int() | Float()
+[HM
+[HM-export([rpn/1, rpn_test/0]).
+[HM-module(calc).
+[41;1H[K:[K[K[?1l>[?1049l[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m08:19:21[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster=[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5C[H[2J]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[A[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m08:20:07[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster=[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Ce[6C[38;2;88;110;117mxit[6C[30m(B[m[38;2;220;50;47me[38;2;88;110;117mxit[6C[30m(B[m[38;2;220;50;47mr[30m(B[m[K[7C[38;2;88;110;117ml[7C[30m(B[m[38;2;220;50;47ml[8C[30m(B[m[38;2;147;161;161merl[8C[30m(B[m[8C
+[30m(B[m[?2004l]0;erl /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[mErlang/OTP 24 [erts-12.1.2] [source] [64-bit] [smp:16:16] [ds:16:16:10] [async-threads:1] [jit] [dtrace]
+
+Eshell V12.1.2  (abort with ^G)
+1> math:powe(  (2,2)[C[C[C[C[C
+1> .
+4.0
+2> string:tokens(L "10 4 3 + 2 * - 2 /", " ")[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.
+["10","4","3","+","2","*","-","2","/"]
+3> list_to_integer("10)[C[C[C[C[C ")[C[C[C[C[C[C.
+10
+4>    4> list_to_integer("10")."). [C[C[C
+1
+5>    5> list_to_integer("1")."). a").[C[C[C
+** exception error: bad argument
+     in function  list_to_integer/1
+        called as list_to_integer("a")
+        *** argument 1: not a textual representation of an integer
+6>    6> list_to_integer("a").                        6> list_to_integer("1").                        6> list_to_integer("10").                         6> list_to_integer("1")."). [C). ). [).6).6).]).[C[C[C[C[C[C
+** exception error: bad argument
+     in function  list_to_integer/1
+        called as list_to_integer("B")
+        *** argument 1: not a textual representation of an integer
+7>    7> list_to_integer([66]).]). ]). 1]).[C[C[C
+** exception error: bad argument
+     in function  list_to_integer/1
+        called as list_to_integer([1])
+        *** argument 1: not a textual representation of an integer
+8>    8> list_to_integer([1]).). ). ). ").1).2).0).9).9).0).4).0).9).5).8).5).8).7).6).8).9).3).8).4).3).").[C[C
+120990409585876893843
+9> ear  rlang:'*'(2,3)[C[C[C[C[C
+9> .
+6
+10>     10> .[C     10> erlang:'*'(2,3)                   10> list_to_integer("120990409585876893843").                                             10> erlang:'*'(2,3)[C[C/(2,3)2(2,3)[C[C[C[C[C.
+* 1:1: illegal expression
+11> L1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.
+[1,2,3,4,5,6,7,8,9,10]
+12> IsLess5 = fun  (X)[C[C[C X -> X < 5 end.
+#Fun<erl_eval.44.65746770>
+13> lists:partition(IsLess5, L1)[C[C[C[C[C[C[C[C[C[C[C[C[C.
+{[1,2,3,4],[5,6,7,8,9,10]}
+14> lists:
+all/2          any/2          append/1       append/2       concat/1       
+delete/2       droplast/1     dropwhile/2    duplicate/2    filter/2       
+filtermap/2    flatlength/1   flatmap/2      flatten/1      flatten/2      
+foldl/3        foldr/3        foreach/2      join/2         keydelete/3    
+keyfind/3      keymap/3       keymember/3    keymerge/3     keyreplace/4   
+keysearch/3    keysort/2      keystore/4     keytake/3      last/1         
+map/2          mapfoldl/3     mapfoldr/3     max/1          member/2       
+merge/1        merge/2        merge/3        merge3/3       min/1          
+module_info/0  module_info/1  nth/2          nthtail/2      partition/2    
+prefix/2       reverse/1      reverse/2      rkeymerge/3    rmerge/2       
+rmerge/3       rmerge3/3      rukeymerge/3   rumerge/2      rumerge/3      
+rumerge3/3     search/2       seq/2          seq/3          sort/1         
+sort/2         split/2        splitwith/2    sublist/2      sublist/3      
+subtract/2     suffix/2       sum/1          takewhile/2    ukeymerge/3    
+ukeysort/2     umerge/1       umerge/2       umerge/3       umerge3/3      
+unzip/1        unzip3/1       usort/1        usort/2        zf/2            
+zip/2          zip3/3         zipwith/3      zipwith3/4     
+14> lists:
+all/2          any/2          append/1       append/2       concat/1       
+delete/2       droplast/1     dropwhile/2    duplicate/2    filter/2       
+filtermap/2    flatlength/1   flatmap/2      flatten/1      flatten/2      
+foldl/3        foldr/3        foreach/2      join/2         keydelete/3    
+keyfind/3      keymap/3       keymember/3    keymerge/3     keyreplace/4   
+keysearch/3    keysort/2      keystore/4     keytake/3      last/1         
+map/2          mapfoldl/3     mapfoldr/3     max/1          member/2       
+merge/1        merge/2        merge/3        merge3/3       min/1          
+module_info/0  module_info/1  nth/2          nthtail/2      partition/2    
+prefix/2       reverse/1      reverse/2      rkeymerge/3    rmerge/2       
+rmerge/3       rmerge3/3      rukeymerge/3   rumerge/2      rumerge/3      
+rumerge3/3     search/2       seq/2          seq/3          sort/1         
+sort/2         split/2        splitwith/2    sublist/2      sublist/3      
+subtract/2     suffix/2       sum/1          takewhile/2    ukeymerge/3    
+ukeysort/2     umerge/1       umerge/2       umerge/3       umerge3/3      
+unzip/1        unzip3/1       usort/1        usort/2        zf/2            
+zip/2          zip3/3         zipwith/3      zipwith3/4     
+14> lists:      lists:takewhile(IsLesss 5, L1)[C[C[C[C[C[C[C[C[C[C[C[C[C.
+[1,2,3,4]
+15>     15> lists:takewhile(IsLess5, L1).while(IsLess5, L1). while(IsLess5, L1). while(IsLess5, L1). while(IsLess5, L1). dwhile(IsLess5, L1).rwhile(IsLess5, L1).owhile(IsLess5, L1).owhile(IsLess5, L1).while(IsLess5, L1). pwhile(IsLess5, L1).[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[5,6,7,8,9,10]
+16> lists:sort?
+16> .
+* 1:11: syntax error before: '?'
+16> ? lists:sort(L1)[C[C[C[C.
+[1,2,3,4,5,6,7,8,9,10]
+17>     17> lists:sort(L1).,). ).f).a).). ). F).a).l).s).e).). ). ). ). ). f).u).n).c).().X).)).[C[C[C ).-).>). ).,) -> ). ) -> ).Y) -> ).[C[C[C[C[CX). ).>). ).Y)..).).  ).e).n).d).[C[C
+* 1:27: syntax error before: '->'
+17>     17> lists:sort(L1, func(X, Y) -> X > Y end).(X, Y) -> X > Y end). [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+** exception error: no function clause matching 
+                    lists:sort([1,2,3,4,5,6,7,8,9,10],
+                               #Fun<erl_eval.43.65746770>) (lists.erl, line 968)  
+18> h(lists, sort)[C[C[C[C[C[C[C[C[C[C[C[C[C
+18> .
+
+  [;1m-spec sort(List1) -> List2 when List1 :: [T], List2 :: [T], T :: term().[0m
+
+  Returns a list containing the sorted elements of [;;4mList1[0m.
+
+  [;1m-spec sort(Fun, List1) -> List2[0m
+  [;1m              when[0m
+  [;1m                  Fun :: fun((A :: T, B :: T) -> boolean()),[0m
+  [;1m                  List1 :: [T],[0m
+  [;1m                  List2 :: [T],[0m
+  [;1m                  T :: term().[0m
+
+  Returns a list containing the sorted elements of [;;4mList1[0m,
+  according to the ordering function [;;4mFun[0m. [;;4mFun(A, B)[0m is to
+  return [;;4mtrue[0m if [;;4mA[0m compares less than or equal to [;;4mB[0m in the
+  ordering, otherwise [;;4mfalse[0m.
+ok
+19> lists( :sort(fun(X, Y)[C[C[C[C[C[C -> X > Y end, L1)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.
+[10,9,8,7,6,5,4,3,2,1]
+20> lists:reverse(L1)[C[C[C[C.
+[10,9,8,7,6,5,4,3,2,1]
+21> lists:reverse(        reverse([2,3,5,4][C[C[C[C[C[C[C[C[C)[C[C[C[C[C[C[C[C[C[C[C.
+[4,5,3,2]
+22> lists:reverse(lists:sort([2,3,5,4][C[C[C[C[C[C[C[C[C)[C[C[C[C[C[C[C[C[C[C[C)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.
+[5,4,3,2]
+23> 
+User switch command
+ --> ?
+  c [nn]            - connect to job
+  i [nn]            - interrupt job
+  k [nn]            - kill job
+  j                 - list all jobs
+  s [shell]         - start local shell
+  r [node [shell]]  - start remote shell
+  q                 - quit erlang
+  ? | h             - this message
+ --> q
+[2m⏎(B[m                                                                               ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m09:05:53[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster=[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Ce[6C[38;2;220;50;47me[6C[30m(B[m[38;2;88;110;117mrl[6C[30m(B[m[38;2;220;50;47mx[30m(B[m[K[7C[38;2;147;161;161mex[7C[30m(B[m[38;2;88;110;117mit[7C[30m(B[m[38;2;147;161;161mi[38;2;88;110;117mt[8C[30m(B[m[38;2;220;50;47mexi[38;2;88;110;117mt[8C[30m(B[m[38;2;220;50;47mt[9C[30m(B[m[38;2;147;161;161mexit[9C[30m(B[m[9C
+[30m(B[m[?2004l]0;exit /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[30m(B[m[?2004l
+Script done on Fri Nov  5 09:05:56 2021

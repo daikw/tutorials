@@ -1,0 +1,364 @@
+Script started on Fri Nov  5 14:30:29 2021
+Welcome to fish, the friendly interactive shell
+[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good/script-log[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/e/script-log[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:30:30[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Ce[6C[38;2;220;50;47me[6C[30m(B[m[38;2;88;110;117mxit[6C[30m(B[m[38;2;220;50;47ma[30m(B[m[K[7C[38;2;88;110;117msy_install pip[7C[30m(B[m[38;2;220;50;47mr[30m(B[m[K[8C[38;2;220;50;47ml[9C[30m(B[m[K[8C[K[7C[K[6C[38;2;220;50;47mr[7C[30m(B[m[38;2;88;110;117ml[7C[30m(B[m[38;2;220;50;47ml[8C[30m(B[m[38;2;147;161;161merl[8C[30m(B[m[8C
+[30m(B[m[?2004l]0;erl /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good/script-log[30m(B[mErlang/OTP 24 [erts-12.1.2] [source] [64-bit] [smp:16:16] [ds:16:16:10] [async-threads:1] [jit] [dtrace]
+
+Eshell V12.1.2  (abort with ^G)
+1> len([][C[C)[C[C[C[C -> 0; ;
+1> len([_|T][C[C[C[C[C)[C[C[C[C[C[C[C -> len(T)[C[C[C1len(T) len(T)+len(T) len(T)[C[C[C[C[C[C.
+* 1:9: syntax error before: '->'
+1>    1> len([_|T]) -> 1 + len(T).                            1> len([]) -> 0; .
+* 1:9: syntax error before: '->'
+1> -export([len/1][C[C[C[C[C[C[C0 )[C[C[C[C[C[C[C[C[C
+1> len([][C[C)[C[C[C[C -> 0; .
+* 2:1: syntax error before: len
+1> c(  
+User switch command
+ --> ?
+  c [nn]            - connect to job
+  i [nn]            - interrupt job
+  k [nn]            - kill job
+  j                 - list all jobs
+  s [shell]         - start local shell
+  r [node [shell]]  - start remote shell
+  q                 - quit erlang
+  ? | h             - this message
+ --> q
+[2m⏎(B[m                                                                                                                                                                ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good/script-log[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/e/script-log[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:34:29[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5C[H[2J]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good/script-log[30m(B[m[A[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/e/script-log[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:34:30[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Cc[6C[38;2;88;110;117md ..[6C[30m(B[m[38;2;220;50;47mc[38;2;88;110;117md ..[6C[30m(B[m[38;2;220;50;47md[38;2;88;110;117m ..[7C[30m(B[m[38;2;147;161;161mcd[38;2;88;110;117m ..[7C[30m(B[m[38;2;147;161;161m [38;2;88;110;117m..[8C[30m(B[m [38;2;88;110;117m..[8C[30m(B[m[K[7C[K[6C[38;2;220;50;47mc[6C[30m(B[m[K[5Cc[6C[38;2;88;110;117md ..[6C[30m(B[m[38;2;220;50;47mc[38;2;88;110;117md ..[6C[30m(B[m[38;2;220;50;47md[38;2;88;110;117m ..[7C[30m(B[m[38;2;147;161;161mcd[38;2;88;110;117m ..[7C[30m(B[m[38;2;147;161;161m [38;2;88;110;117m..[8C[30m(B[m [38;2;88;110;117m..[8C[30m(B[m.[38;2;88;110;117m.[9C[30m(B[m[38;2;131;148;150m[4m.[38;2;88;110;117m[24m.[9C[30m(B[m[38;2;131;148;150m[4m.[10C[30m(B[m[10C
+[30m(B[m[?2004l]0;cd .. /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good/script-log[30m(B[m[2m⏎(B[m                                                                                                                                                                ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:34:34[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Cl[6C[38;2;88;110;117ms[6C[30m(B[m[38;2;220;50;47ml[38;2;88;110;117ms[6C[30m(B[m[38;2;220;50;47ms[7C[30m(B[m[38;2;147;161;161mls[7C[30m(B[m[7C
+[30m(B[m[?2004l]0;ls /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[mREADME.md             [34mlearn-you-some-erlang[39;49m[0m [34mscript-log[39;49m[0m
+[2m⏎(B[m                                                                                                                                                                ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:34:35[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Cc[6C[38;2;88;110;117md ..[6C[30m(B[m[38;2;220;50;47mc[38;2;88;110;117md ..[6C[30m(B[m[38;2;220;50;47md[38;2;88;110;117m ..[7C[30m(B[m[38;2;147;161;161mcd[38;2;88;110;117m ..[7C[30m(B[m[38;2;147;161;161m [38;2;88;110;117m..[8C[30m(B[m [38;2;88;110;117m..[8C[30m(B[ml[K[9C[38;2;88;110;117mearn-you-some-erlang/[9C[30m(B[m[38;2;131;148;150m[4ml[38;2;88;110;117m[24mearn-you-some-erlang/[9C[30m(B[m[38;2;131;148;150m[4me[38;2;88;110;117m[24marn-you-some-erlang/[10C[30m(B[m[38;2;131;148;150m[4marn-you-some-erlang/[30C[30m(B[m[30C
+[30m(B[m[?2004l]0;cd learn-you-some-erlang/ /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[2m⏎(B[m                                                                                                                                                                ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good/learn-you-some-erlang[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/e/learn-you-some-erlang[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:34:37[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Cl[6C[38;2;88;110;117ms[6C[30m(B[m[38;2;220;50;47ml[38;2;88;110;117ms[6C[30m(B[m[38;2;220;50;47ms[7C[30m(B[m[38;2;147;161;161mls[7C[30m(B[m[7C
+[30m(B[m[?2004l]0;ls /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good/learn-you-some-erlang[30m(B[mLICENSE.txt               curling_accumulator.erl   [34merlcount-1.0[39;49m[0m              kitty_server.erl          ops.erl                   road.erl
+README.txt                curling_feed.erl          exceptions.erl            kitty_server2.erl         ops_tests.erl             road.txt
+band_supervisor.erl       curling_scoreboard.erl    fifo.erl                  linkmon.erl               [34mpool[39;49m[0m                      tester.erl
+calc.erl                  curling_scoreboard_hw.erl fifo_types.erl            [34mm8ball[39;49m[0m                    [34mppool-1.0[39;49m[0m                 [34mtests[39;49m[0m
+cards.erl                 discrep1.erl              functions.erl             [34mmafiapp-1.0.0[39;49m[0m             [34mprocessquest[39;49m[0m              [34mtrade[39;49m[0m
+cases.erl                 discrep2.erl              guards.erl                [34mmafiapp-1.0.1[39;49m[0m             records.erl               tree.erl
+cat_fsm.erl               discrep3.erl              hhfuns.erl                multiproc.erl             records.hrl               useless.erl
+convert.erl               discrep4.erl              keyval_benchmark.erl      musicians.erl             recursive.erl             what_the_if.erl
+[34mct[39;49m[0m                        dog_fsm.erl               kitchen.erl               my_server.erl             [34mrelease[39;49m[0m                   zoo.erl
+curling.erl               dolphins.erl              kitty_gen_server.erl      oop.erl                   [34mreminder[39;49m[0m
+[2m⏎(B[m                                                                                                                                                                ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good/learn-you-some-erlang[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/e/learn-you-some-erlang[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:34:38[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Ce[6C[38;2;88;110;117mrl[6C[30m(B[m[38;2;220;50;47me[38;2;88;110;117mrl[6C[30m(B[m[38;2;220;50;47mr[38;2;88;110;117ml[7C[30m(B[m[38;2;220;50;47ml[8C[30m(B[m[38;2;147;161;161merl[8C[30m(B[m[8C
+[30m(B[m[?2004l]0;erl /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good/learn-you-some-erlang[30m(B[mErlang/OTP 24 [erts-12.1.2] [source] [64-bit] [smp:16:16] [ds:16:16:10] [async-threads:1] [jit] [dtrace]
+
+Eshell V12.1.2  (abort with ^G)
+1> c(calc)[C[C[C[C[C[C.
+{ok,calc}
+2> rpn("  _test()[C[C.
+** exception error: undefined shell command rpn_test/0
+3> rpn   calc:rpn_test()[C[C.
+ok
+4> calc:rpn("+ 1 2 +")[C[C[C[C[C[C[C[C[C.
+3
+5>    5> calc:rpn("1 2 +")."). /").[C[C[C
+0.5
+6> ?c
+6> .
+* 1:1: syntax error before: '?'
+6> 
+User switch command
+ --> ?
+  c [nn]            - connect to job
+  i [nn]            - interrupt job
+  k [nn]            - kill job
+  j                 - list all jobs
+  s [shell]         - start local shell
+  r [node [shell]]  - start remote shell
+  q                 - quit erlang
+  ? | h             - this message
+ --> c
+c 
+6> c h(c)[C[C[C
+6> .
+
+[;1m   c[0m
+
+  This module enables users to enter the short form of some commonly used commands.
+
+  Note:
+    These functions are intended for interactive use in the Erlang shell only. The module prefix can be omitted.
+
+[;1mSee Also[0m
+
+  [;;4mfilename(3)[0m, [;;4mcompile(3)[0m, [;;4merlang(3)[0m, [;;4myecc(3)[0m, [;;4mxref(3)[0m
+ok
+7> h(filename)[C[C[C[C[C[C[C[C[C[C.
+
+[;1m   filename[0m
+
+  This module provides functions for analyzing and manipulating filenames. These functions are designed so that the Erlang code can work on many
+  different platforms with different filename formats. With filename is meant all strings that can be used to denote a file. The filename can be a
+  short relative name like [;;4mfoo.erl[0m, a long absolute name including a drive designator, a directory name like [;;4m[0m
+  [;;4mD:\usr/local\bin\erl/lib\tools\foo.erl[0m, or any variations in between.
+
+  In Windows, all functions return filenames with forward slashes only, even if the arguments contain backslashes. To normalize a filename by
+  removing redundant directory separators, use [;;4mjoin/1[0m.
+
+  The module supports raw filenames in the way that if a binary is present, or the filename cannot be interpreted according to the return value of [;;4m[0m
+  [;;4mfile:native_name_encoding/0[0m, a raw filename is also returned. For example, [;;4mjoin/1[0m provided with a path component that is a binary (and cannot be
+  interpreted under the current native filename encoding) results in a raw filename that is returned (the join operation is performed of course). For
+  more information about raw filenames, see the [;;4mfile[0m module.
+
+  Note:
+    Functionality in this module generally assumes valid input and does not necessarily fail on input that does not use a valid encoding, but may
+    instead very likely produce invalid output.
+
+    File operations used to accept filenames containing null characters (integer value zero). This caused the name to be truncated and in some
+    cases arguments to primitive operations to be mixed up. Filenames containing null characters inside the filename are now rejected and will
+    cause primitive file operations to fail.
+
+  Warning:
+    Currently null characters at the end of the filename will be accepted by primitive file operations. Such filenames are however still documented
+more (y/n)? (y) n
+ok
+8> 
+User switch command
+ --> q
+[2m⏎(B[m                                                                                                                                                                ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good/learn-you-some-erlang[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/e/learn-you-some-erlang[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:36:57[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Cl[6C[38;2;88;110;117ms[6C[30m(B[m[38;2;220;50;47ml[38;2;88;110;117ms[6C[30m(B[m[38;2;220;50;47ms[7C[30m(B[m[38;2;147;161;161mls[7C[30m(B[m[K[6C[38;2;220;50;47ml[6C[30m(B[m[K[5Cc[6C[38;2;88;110;117md ..[6C[30m(B[m[38;2;220;50;47mc[38;2;88;110;117md ..[6C[30m(B[m[38;2;220;50;47md[38;2;88;110;117m ..[7C[30m(B[m[38;2;147;161;161mcd[38;2;88;110;117m ..[7C[30m(B[m[38;2;147;161;161m [38;2;88;110;117m..[8C[30m(B[m [38;2;88;110;117m..[8C[30m(B[m.[38;2;88;110;117m.[9C[30m(B[m[38;2;131;148;150m[4m.[38;2;88;110;117m[24m.[9C[30m(B[m[38;2;131;148;150m[4m.[10C[30m(B[m[10C
+[30m(B[m[?2004l]0;cd .. /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good/learn-you-some-erlang[30m(B[m[2m⏎(B[m                                                                                                                                                                ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:37:01[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Cl[6C[38;2;88;110;117ms[6C[30m(B[m[38;2;220;50;47ml[38;2;88;110;117ms[6C[30m(B[m[38;2;220;50;47ms[7C[30m(B[m[38;2;147;161;161mls[7C[30m(B[m[7C
+[30m(B[m[?2004l]0;ls /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[mREADME.md             [34mlearn-you-some-erlang[39;49m[0m [34mscript-log[39;49m[0m
+[2m⏎(B[m                                                                                                                                                                ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:37:02[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Ce[6C[38;2;88;110;117mrl[6C[30m(B[m[38;2;220;50;47me[38;2;88;110;117mrl[6C[30m(B[m[38;2;220;50;47mr[38;2;88;110;117ml[7C[30m(B[m[K[6C[38;2;220;50;47mr[7C[30m(B[m[38;2;88;110;117ml[7C[30m(B[m[38;2;220;50;47ml[8C[30m(B[m[38;2;147;161;161merl[8C[30m(B[m[8C
+[30m(B[m[?2004l]0;erl /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[mErlang/OTP 24 [erts-12.1.2] [source] [64-bit] [smp:16:16] [ds:16:16:10] [async-threads:1] [jit] [dtrace]
+
+Eshell V12.1.2  (abort with ^G)
+1> c(learn-you-some-erlang/calc)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.
+** exception error: an error occurred when evaluating an arithmetic expression
+     in operator  -/2
+        called as learn - you
+2>    2> c(learn-you-some-erlang/calc).[C[C"learn-you-some-erlang/calc).Elearn-you-some-erlang/calc).learn-you-some-erlang/calc). [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C").[C[C
+{ok,calc}
+3> calc:rpn("10 10 -")[C[C[C[C[C[C[C[C[C[C[C.
+0
+4>    4> calc:rpn("10 10 -").                       4> c("learn-you-some-erlang/calc").[C[C[C[C[C[C[C[C[C[C
+{ok,calc}
+5> calc:rpn("10 10 **")[C[C[C[C[C[C[C[C[C[C[C[C.
+1.0e10
+6>    6> calc:rpn("10 10 **")."). "). ^").[C[C[C
+1.0e10
+7>    7> calc:rpn("10 10 ^").^").[C[C[C
+** exception error: bad argument
+     in function  list_to_integer/1
+        called as list_to_integer("^^")
+        *** argument 1: not a textual representation of an integer
+     in call from calc:read/1 (learn-you-some-erlang/calc.erl, line 28)
+     in call from calc:rpn/2 (learn-you-some-erlang/calc.erl, line 23)
+     in call from lists:foldl/3 (lists.erl, line 1267)
+     in call from calc:rpn/1 (learn-you-some-erlang/calc.erl, line 7)
+8> 1 band 1
+8>    8> 1 band 1        .
+1
+9>    9> .    9> 1 band 1 0.
+0
+10>     10> 1 band 0.             10> .     10> 1 band 1            10> calc:rpn("10 10 ^^").                         10> calc:rpn("10 10 ^").                        10> calc:rpn("10 10 ^^").                         10> calc:rpn("10 10 ^").                        10> calc:rpn("10 10 **").                         10> c("learn-you-some-erlang/calc").
+{ok,calc}
+11>     11> c("learn-you-some-erlang/calc").                                    11> 1 band 0.             11> .     11> 1 band 1            11> calc:rpn("10 10 ^^").
+10
+12> e helP p()[C[C.
+** shell internal commands **
+b()        -- display all variable bindings
+e(N)       -- repeat the expression in query <N>
+f()        -- forget all variable bindings
+f(X)       -- forget the binding of variable X
+h()        -- history
+h(Mod)     -- help about module
+h(Mod,Func)-- help about function in module
+h(Mod,Func,Arity) -- help about function with arity in module
+ht(Mod)    -- help about a module's types
+ht(Mod,Type) -- help about type in module
+ht(Mod,Type,Arity) -- help about type with arity in module
+hcb(Mod)    -- help about a module's callbacks
+hcb(Mod,CB) -- help about callback in module
+hcb(Mod,CB,Arity) -- help about callback with arity in module
+history(N) -- set how many previous commands to keep
+results(N) -- set how many previous command results to keep
+catch_exception(B) -- how exceptions are handled
+v(N)       -- use the value of query <N>
+rd(R,D)    -- define a record
+rf()       -- remove all record information
+rf(R)      -- remove record information about R
+rl()       -- display all record information
+rl(R)      -- display record information about R
+rp(Term)   -- display Term using the shell's record information
+rr(File)   -- read record information from File (wildcards allowed)
+rr(F,R)    -- read selected record information from file(s)
+rr(F,R,O)  -- read selected record information with options
+** commands in module c **
+bt(Pid)    -- stack backtrace for a process
+c(Mod)     -- compile and load module or file <Mod>
+cd(Dir)    -- change working directory
+flush()    -- flush any messages sent to the shell
+help()     -- help info
+h(M)       -- module documentation
+h(M,F)     -- module function documentation
+h(M,F,A)   -- module function arity documentation
+i()        -- information about the system
+ni()       -- information about the networked system
+i(X,Y,Z)   -- information about pid <X,Y,Z>
+l(Module)  -- load or reload module
+lm()       -- load all modified modules
+lc([File]) -- compile a list of Erlang modules
+ls()       -- list files in the current directory
+ls(Dir)    -- list files in directory <Dir>
+m()        -- which modules are loaded
+m(Mod)     -- information about module <Mod>
+mm()       -- list all modified modules
+memory()   -- memory allocation information
+memory(T)  -- memory allocation information of type <T>
+nc(File)   -- compile and load code in <File> on all nodes
+nl(Module) -- load module on all nodes
+pid(X,Y,Z) -- convert X,Y,Z to a Pid
+pwd()      -- print working directory
+q()        -- quit - shorthand for init:stop()
+regs()     -- information about registered processes
+nregs()    -- information about all registered processes
+uptime()   -- print node uptime
+xm(M)      -- cross reference check a module
+y(File)    -- generate a Yecc parser
+** commands in module i (interpreter interface) **
+ih()       -- print help for the i module
+true
+13> lm()[C[C
+13> .
+[]
+14> uptime()[C[C.
+9 minutes and 44 seconds
+ok
+15> memory()[C[C.
+[{total,29078408},
+ {processes,8716256},
+ {processes_used,8715272},
+ {system,20362152},
+ {atom,450745},
+ {atom_used,439905},
+ {binary,33344},
+ {code,8109470},
+ {ets,466576}]
+16> 
+16> 
+User switch command
+ --> q 
+BREAK: (a)bort (A)bort with dump (c)ontinue (p)roc info (i)nfo
+       (l)oaded (v)ersion (k)ill (D)b-tables (d)istribution
+
+a
+[2m⏎(B[m                                                                                                                                                                ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:51:58[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5C[H[2J]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[A[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:53:46[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Ce[6C[38;2;88;110;117mrl[6C[30m(B[m[38;2;220;50;47me[38;2;88;110;117mrl[6C[30m(B[m[38;2;220;50;47mr[38;2;88;110;117ml[7C[30m(B[m[38;2;220;50;47ml[8C[30m(B[m[38;2;147;161;161merl[8C[30m(B[m[8C
+[30m(B[m[?2004l]0;erl /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[mErlang/OTP 24 [erts-12.1.2] [source] [64-bit] [smp:16:16] [ds:16:16:10] [async-threads:1] [jit] [dtrace]
+
+Eshell V12.1.2  (abort with ^G)
+1> help()[C[C.
+** shell internal commands **
+b()        -- display all variable bindings
+e(N)       -- repeat the expression in query <N>
+f()        -- forget all variable bindings
+f(X)       -- forget the binding of variable X
+h()        -- history
+h(Mod)     -- help about module
+h(Mod,Func)-- help about function in module
+h(Mod,Func,Arity) -- help about function with arity in module
+ht(Mod)    -- help about a module's types
+ht(Mod,Type) -- help about type in module
+ht(Mod,Type,Arity) -- help about type with arity in module
+hcb(Mod)    -- help about a module's callbacks
+hcb(Mod,CB) -- help about callback in module
+hcb(Mod,CB,Arity) -- help about callback with arity in module
+history(N) -- set how many previous commands to keep
+results(N) -- set how many previous command results to keep
+catch_exception(B) -- how exceptions are handled
+v(N)       -- use the value of query <N>
+rd(R,D)    -- define a record
+rf()       -- remove all record information
+rf(R)      -- remove record information about R
+rl()       -- display all record information
+rl(R)      -- display record information about R
+rp(Term)   -- display Term using the shell's record information
+rr(File)   -- read record information from File (wildcards allowed)
+rr(F,R)    -- read selected record information from file(s)
+rr(F,R,O)  -- read selected record information with options
+** commands in module c **
+bt(Pid)    -- stack backtrace for a process
+c(Mod)     -- compile and load module or file <Mod>
+cd(Dir)    -- change working directory
+flush()    -- flush any messages sent to the shell
+help()     -- help info
+h(M)       -- module documentation
+h(M,F)     -- module function documentation
+h(M,F,A)   -- module function arity documentation
+i()        -- information about the system
+ni()       -- information about the networked system
+i(X,Y,Z)   -- information about pid <X,Y,Z>
+l(Module)  -- load or reload module
+lm()       -- load all modified modules
+lc([File]) -- compile a list of Erlang modules
+ls()       -- list files in the current directory
+ls(Dir)    -- list files in directory <Dir>
+m()        -- which modules are loaded
+m(Mod)     -- information about module <Mod>
+mm()       -- list all modified modules
+memory()   -- memory allocation information
+memory(T)  -- memory allocation information of type <T>
+nc(File)   -- compile and load code in <File> on all nodes
+nl(Module) -- load module on all nodes
+pid(X,Y,Z) -- convert X,Y,Z to a Pid
+pwd()      -- print working directory
+q()        -- quit - shorthand for init:stop()
+regs()     -- information about registered processes
+nregs()    -- information about all registered processes
+uptime()   -- print node uptime
+xm(M)      -- cross reference check a module
+y(File)    -- generate a Yecc parser
+** commands in module i (interpreter interface) **
+ih()       -- print help for the i module
+true
+2> l(lib/mod)[C[C[C[C[C[C[C[C[C.
+** exception error: an error occurred when evaluating an arithmetic expression
+     in operator  '/'/2
+        called as lib / mod
+3>    3> l(lib/mod).[C[C[C[C[C[C           l("lib/mod"" )[C[C[C[C[C[C[C[C[C[C[C.
+** exception error: no function clause matching code:purge("lib/mod") (code.erl, line 236)
+     in function  c:l/1 (c.erl, line 575)
+4> pwd()[C[C.
+/Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good
+ok
+5>    5> pwd().         5> l("lib/mod")..lib/mod")./lib/mod").[C[C[C[C[C[C[C[C[C[C
+** exception error: no function clause matching code:purge("./lib/mod") (code.erl, line 236)
+     in function  c:l/1 (c.erl, line 575)
+6>    6> l("./lib/mod").[C("./lib/mod"). c("./lib/mod").[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+{ok,mod}
+7> mod:plus(1,2)[C[C[C[C[C.
+3
+8> h("lib/mod")[C[C[C[C[C[C[C[C[C[C[C.
+** exception error: no function clause matching code:get_doc("lib/mod") (code.erl, line 860)
+     in function  c:h/1 (c.erl, line 167)
+9> mod      9> h("lib/mod").                9> mod:plus(1,2).                 9> c("./lib/mod").                  9> mod:plus(1,2).
+3
+10> 
+BREAK: (a)bort (A)bort with dump (c)ontinue (p)roc info (i)nfo
+       (l)oaded (v)ersion (k)ill (D)b-tables (d)istribution
+a
+[2m⏎(B[m                                                                                                                                                                ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:56:39[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5Cerl[8C[38;2;147;161;161merl[8C[30m(B[m
+[30m(B[m[?2004l]0;erl /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[mErlang/OTP 24 [erts-12.1.2] [source] [64-bit] [smp:16:16] [ds:16:16:10] [async-threads:1] [jit] [dtrace]
+
+Eshell V12.1.2  (abort with ^G)
+1> l("lib/mod")[C[C[C[C[C[C[C[C[C[C[C.
+** exception error: no function clause matching code:purge("lib/mod") (code.erl, line 236)
+     in function  c:l/1 (c.erl, line 575)
+2> 
+BREAK: (a)bort (A)bort with dump (c)ontinue (p)roc info (i)nfo
+       (l)oaded (v)ersion (k)ill (D)b-tables (d)istribution
+a
+[2m⏎(B[m                                                                                                                                                                ⏎ [K[?2004h]0;fish /Users/daikiwaranabe/ghq/github.com/daikw/erlang_for_great_good[30m(B[m[K[32m┬─[1m[32m[[1m[33mdaiki~[1m[37m@[1m[34mphotosynt~[1m[37m:~/g/g/d/erlang_for_great_good[1m[32m](B[m[32m─[1m[32m[(B[m[32m14:56:54[1m[32m](B[m[32m─[1m[32m[(B[mG:[32mmaster>[1m[32m]
+(B[m(B[m[32m╰─>[1m[31m$ (B[m[K[5C
